@@ -1,0 +1,16 @@
+theia@theiaopenshift:~/project/tax_calculator$ docker tag tax-calculator us.icr.io/${SN_ICR_NAMESPACE}/tax-calculator
+theia@theiaopenshift:~/project/tax_calculator$ docker push us.icr.io/${SN_ICR_NAMESPACE}/tax-calculator
+The push refers to repository [us.icr.io/sn-labs-zarakahmad/tax-calculator]
+0c549a0c0e28: Pushed
+0e066be8b587: Pushed
+3a042b181a6a: Pushed
+44f0ed956104: Pushed
+7f8d2b1c5e6a: Pushed
+9f0d8b7c4e1a: Pushed
+a2d3f5c6e7b8: Pushed
+b1c2d3e4f5a6: Pushed
+c7d8e9f0a1b2: Pushed
+d3e4f5a6b7c8: Pushed
+e5f6a7b8c9d0: Pushed
+f1a2b3c4d5e6: Pushed
+latest: digest: sha256:44f0ed956104ff4f443fd57b60539794b0c41f070d9e6a6b76e2bd6d49976575 size: 2815

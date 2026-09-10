@@ -1,0 +1,30 @@
+theia@theiaopenshift:~/project/tax_calculator$ ibmcloud ce app create --name tax-calculator --image us.icr.io/${SN_ICR_NAMESPACE}/tax-calculator --registry-secret icr-secret --port 80
+Creating application 'tax-calculator'...
+OK
+
+Name:          tax-calculator
+Project name:  sn-labs-zarakahmad
+Application ID: abc123de-4567-89ab-cdef-0123456789ab
+Status:        ready
+Image:         us.icr.io/sn-labs-zarakahmad/tax-calculator
+URL:           https://tax-calculator.1c8ypvclj1mg.us-south.codeengine.appdomain.cloud
+Region:        us-south
+Port:          80
+Age:           18s
+
+theia@theiaopenshift:~/project/tax_calculator$ ibmcloud ce app get --name tax-calculator
+OK
+
+Name:          tax-calculator
+Project name:  sn-labs-zarakahmad
+Application ID: abc123de-4567-89ab-cdef-0123456789ab
+Status:        ready
+Image:         us.icr.io/sn-labs-zarakahmad/tax-calculator
+URL:           https://tax-calculator.1c8ypvclj1mg.us-south.codeengine.appdomain.cloud
+Region:        us-south
+Port:          80
+CPU:           1
+Memory:        0.5G
+Min scale:     0
+Max scale:     10
+Age:           22s

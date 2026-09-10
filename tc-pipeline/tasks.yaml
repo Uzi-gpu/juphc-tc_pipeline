@@ -1,0 +1,35 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: npm
+spec:
+  workspaces:
+    - name: source
+  steps:
+    - name: npminstall
+      image: node:20-buster-slim
+      workingDir: $(workspaces.source.path)
+      script: |
+        #!/bin/bash
+        echo "npm version"
+        npm --version
+        echo "pwd"
+        pwd
+        npm cache clean --force
+        npm install
+---
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: jasmine
+spec:
+  workspaces:
+    - name: source
+  steps:
+    - name: jasminetests
+      image: node:20-buster-slim
+      workingDir: $(workspaces.source.path)
+      script: |
+        #!/bin/bash
+        echo "Running jasminetests"
+        npx jasmine

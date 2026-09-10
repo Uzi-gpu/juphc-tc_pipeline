@@ -1,0 +1,9 @@
+theia@theiaopenshift:~/project/tax_calculator$ npx jasmine
+Randomized with seed 72941
+Started
+.......
+
+
+7 specs, 0 failures
+Finished in 0.004 seconds
+Randomized with seed 72941 (jasmine --random=true --seed=72941)

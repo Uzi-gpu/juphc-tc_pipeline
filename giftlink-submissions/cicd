@@ -1,0 +1,29 @@
+Run https://github.com/zarak-ahmad/fullstack-capstone-project/actions/runs/33598831810
+Workflow: main3 (main.yml)
+Event: push
+Branch: main
+Commit: df60937 Initial commit: GiftLink full-stack capstone project.
+Status: success
+Total duration: 1m 1s
+
+Job: Lint JavaScript Files (18s)
+✓ Set up job
+✓ Checkout Repository
+✓ Install Node.js
+✓ Install JSHint
+✓ Run Linter
+Linted all the js files successfully
+✓ Post Install Node.js
+✓ Post Checkout Repository
+✓ Complete job
+
+Job: Build client (56s)
+✓ Set up job
+✓ Checkout Repository
+✓ Install Node.js
+✓ Update browserslist database
+✓ Run build
+Client-side build successfully
+✓ Post Install Node.js
+✓ Post Checkout Repository
+✓ Complete job

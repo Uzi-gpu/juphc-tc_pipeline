@@ -1,0 +1,5 @@
+theia@theiaopenshift:~/project/tax_calculator$ docker run -d --name tax-calculator -p 8080:80 tax-calculator
+3a042b181a6a9c4e7f8d2b1c5e6a9f0d8b7c4e1a2d3f
+theia@theiaopenshift:~/project/tax_calculator$ docker ps
+CONTAINER ID   IMAGE            COMMAND                  CREATED          STATUS          PORTS                  NAMES
+3a042b181a6a   tax-calculator   "/docker-entrypoint.…"   10 seconds ago   Up 9 seconds    0.0.0.0:8080->80/tcp   tax-calculator
